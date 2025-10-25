@@ -22,7 +22,11 @@ Sentry.init({
     Sentry.replayIntegration(),
   ],
   tracesSampleRate: 1.0,
-  tracePropagationTargets: ["localhost", /^https:\/\/reqres\.in\/api/],
+  tracePropagationTargets: [
+    "localhost",
+    /^https:\/\/reqres\.in\/api/,
+    /^https:\/\/jsonplaceholder\.typicode\.com\/api/,
+  ],
   replaysSessionSampleRate: 1.0,
   replaysOnErrorSampleRate: 1.0,
 });
