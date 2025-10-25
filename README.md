@@ -27,4 +27,10 @@ npm run dev
 npm run build
 ```
 
+### Demonstration Images
+
+![Sentry Issues](https://cdn.jsdelivr.net/gh/vignesh-antony/user-monitoring@refs/heads/master/public/demo/sentry-issues.png)
+![Sentry Assets](https://cdn.jsdelivr.net/gh/vignesh-antony/user-monitoring@refs/heads/master/public/demo/sentry-assets.png)
+![Sentry Network Requests](https://cdn.jsdelivr.net/gh/vignesh-antony/user-monitoring@refs/heads/master/public/demo/sentry-network-request.png)
+
 > Note: You can view the Sentry dashboard for this project at https://va-dev.sentry.io/insights/projects/va-user-app
