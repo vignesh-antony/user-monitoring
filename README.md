@@ -26,3 +26,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+> Note: You can view the Sentry dashboard for this project at https://va-dev.sentry.io/insights/projects/va-user-app
